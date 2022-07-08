@@ -1,4 +1,4 @@
-# Representing Master Data in Dataverse
+# Power Platform Design Sessions: Representing Master Data in Dataverse
 
 ## Summary
 All digital modernization and transformation solutions rely heavily on ample planning grounded in a core quality framework. A major component of this framework is defining the data strategy. 
@@ -14,7 +14,7 @@ One of the benefits of Dataverse for Teams is the ability for team members to qu
 
 ### Data Flows
 Data Flows provide low code direct import from multiple static and dynamic data sources. Modern office examples include importing data from Microsoft Excel spreadsheets or SharePoint folders and lists. Enterprise data sources available include pulling data from other Dataverse environments within and across tenants powered by existing data flows or directly with the API. 
-
+![Dataverse for Teams Data Flow Connectors](https://raw.githubusercontent.com/aliyoussefi/PowerPlatformDesignSessions/main/Images/DataverseForTeams/DataflowIntoDV4T.png)
 Depending on the use and scope of the Teams environment some items to consider are:
 - Refresh cycle - How often do you plan to refresh your master data? Depending on frequency
 - Data location - Where is the master data coming from? Is it dispersed across multiple locations? Data stores with known APIs are well suited and easily adaptable. Others without will need to be exposed for consumption by Data Flows or similiar technologies.
@@ -30,16 +30,16 @@ There are other considerations obviously but this should cover several business 
 
 ## Dataverse
 For the enterprise version of Dataverse, additional options are available including additional connectors in Data Flow to extending to pro code tooling using Azure servcies like Azure Data Factory or the Dataverse SDK.
-#### Import Directly
+### Import Directly
 Data Flows within Dataverse expose much more capability for low code master data sourcing. Consider the image above for Dataverse for Teams and the image below.
-<!-- insert DataFlow.DataverseConnector -->
+![Dataverse Data Flow Connectors](https://raw.githubusercontent.com/aliyoussefi/PowerPlatformDesignSessions/main/Images/Dataverse/DataFlow.DataverseConnectors.png)
 Here data flows can connect to on-premise SQL databases, Azure Data Lakes, other Dataverse environments even other databases such as Oracle or Amazon Redshift.
 
 If limitations with Power Query or other features of data flow come up, Datavaerse has API access that can be used by pro code team members. The API has an SDK available and can be natively consumed in Azure Data Factory providing additional data wrangling and monitoring capabilities.
-<!-- insert ADF.DataverseConnector -->
+
 
 Importing directly allows reuse of standard tables which can provide benefits of simplifying structure and access.
-#### Virtual Tables
+### Virtual Tables
 Another option to consider is the usage of Virtual Tables. Virtual tables represent data from other data sources and do not reside within the Dataverse environment. Virtual Tables allow for read and write operations on master data.
 
 Leveraging virtual tables can come in handy when designing a solution that needs to limit data sprawl or redundancy that could cause increase use of storage.
