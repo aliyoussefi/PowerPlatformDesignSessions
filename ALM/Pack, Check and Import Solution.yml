@@ -1,0 +1,36 @@
+# 'Allow scripts to access the OAuth token' was selected in pipeline.  Add the following YAML to any steps requiring access:
+#       env:
+#           MY_ACCESS_TOKEN: $(System.AccessToken)
+# Variable 'EnvironmentName' was defined in the Variables tab
+# Variable 'SolutionName' was defined in the Variables tab
+jobs:
+- job: Job_1
+  displayName: Create Environment
+  pool:
+    vmImage: windows-2019
+  steps:
+  - checkout: self
+    fetchDepth: 1
+    persistCredentials: True
+  - task: PowerPlatformToolInstaller@2
+    displayName: 'Power Platform Tool Installer '
+  - task: PowerPlatformPackSolution@2
+    displayName: 'Power Platform Pack Solution '
+    inputs:
+      SolutionSourceFolder: $(SolutionName)
+      SolutionOutputFile: $(SolutionName).zip
+  - task: PowerPlatformChecker@2
+    displayName: 'Power Platform Checker '
+    inputs:
+      PowerPlatformSPN: 56c8c346-e127-479a-bdac-6cd4d94da5d4
+      RuleSet: 0ad12346-e108-40b8-a956-9a8f95ea18c9
+      ErrorLevel: CriticalIssueCount
+      SaveResults: true
+  - task: PowerPlatformImportSolution@2
+    displayName: 'Power Platform Import Solution '
+    inputs:
+      authenticationType: PowerPlatformSPN
+      PowerPlatformSPN: 56c8c346-e127-479a-bdac-6cd4d94da5d4
+      Environment: https://$(EnvironmentName).crm.dynamics.com
+      SolutionInputFile: $(SolutionName).zip
+...

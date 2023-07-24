@@ -1,0 +1,35 @@
+# Variable 'SolutionName' was defined in the Variables tab
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    vmImage: windows-2019
+  steps:
+  - checkout: self
+    fetchDepth: 1
+  - task: PowerPlatformToolInstaller@2
+    displayName: 'Power Platform Tool Installer '
+  - task: PowerPlatformExportSolution@2
+    displayName: 'Power Platform Export Solution '
+    inputs:
+      authenticationType: PowerPlatformSPN
+      PowerPlatformSPN: 56c8c346-e127-479a-bdac-6cd4d94da5d4
+      SolutionName: $(SolutionName).zip
+      SolutionOutputFile: Solutions\$(SolutionName).zip
+  - task: PowerPlatformSetConnectionVariables@2
+    displayName: 'Power Platform Set Connection Variables '
+    enabled: False
+  - task: PowerPlatformSetSolutionVersion@2
+    displayName: 'Power Platform Set Solution Version '
+    enabled: False
+    inputs:
+      authenticationType: PowerPlatformSPN
+      PowerPlatformSPN: 56c8c346-e127-479a-bdac-6cd4d94da5d4
+      SolutionName: $(SolutionName).zip
+  - task: PowerPlatformUnpackSolution@2
+    displayName: 'Power Platform Unpack Solution '
+    inputs:
+      SolutionInputFile: Solutions\$(SolutionName).zip
+      SolutionTargetFolder: Solutions\src\$(SolutionName)
+      ProcessCanvasApps: true
+...

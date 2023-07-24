@@ -1,0 +1,18 @@
+# Variable '$(EnvironmentName)' was defined in the Variables tab
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    vmImage: windows-2019
+  steps:
+  - checkout: self
+    fetchDepth: 1
+  - task: PowerPlatformToolInstaller@2
+    displayName: 'Power Platform Tool Installer '
+  - task: PowerPlatformDeleteEnvironment@2
+    displayName: 'Power Platform Delete Environment '
+    inputs:
+      authenticationType: PowerPlatformSPN
+      PowerPlatformSPN: 56c8c346-e127-479a-bdac-6cd4d94da5d4
+      Environment: $(EnvironmentName)
+...
