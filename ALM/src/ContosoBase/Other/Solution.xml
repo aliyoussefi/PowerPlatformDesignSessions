@@ -6,7 +6,7 @@
       <LocalizedName description="ContosoBase" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.6</Version>
     <Managed>1</Managed>
     <Publisher>
       <UniqueName>aliyoussefi</UniqueName>
@@ -82,10 +82,17 @@
     <RootComponents>
       <RootComponent type="1" schemaName="ali_claim" behavior="0" />
       <RootComponent type="1" schemaName="ali_claimline" behavior="0" />
+      <RootComponent type="1" schemaName="ali_clinicalimpression" behavior="0" />
+      <RootComponent type="1" schemaName="ali_condition" behavior="0" />
+      <RootComponent type="1" schemaName="ali_coverage" behavior="0" />
       <RootComponent type="1" schemaName="ali_practitioner" behavior="0" />
+      <RootComponent type="1" schemaName="ali_procedure" behavior="0" />
       <RootComponent type="1" schemaName="ali_provider" behavior="0" />
       <RootComponent type="1" schemaName="ali_providerplan" behavior="0" />
       <RootComponent type="1" schemaName="ali_providerplanservice" behavior="0" />
+      <RootComponent type="1" schemaName="ali_riskassessment" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="29" id="{f19e7f2c-5e4a-ed11-bba1-000d3a3387d1}" behavior="0" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
