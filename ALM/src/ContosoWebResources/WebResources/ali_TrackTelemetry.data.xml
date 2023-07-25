@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{1b3d94a0-034b-ed11-bba1-000d3a3387d1}</WebResourceId>
+  <Name>ali_TrackTelemetry</Name>
+  <DisplayName>Track Telemetry</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ali_TrackTelemetry1B3D94A0-034B-ED11-BBA1-000D3A3387D1</FileName>
+</WebResource>
