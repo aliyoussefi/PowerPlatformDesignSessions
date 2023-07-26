@@ -27,7 +27,7 @@ function captureTelemetry(formContext) {
             isBrowserLinkTrackingEnabled: true,
             //autoTrackPageView will write to customMetrics
             autoTrackPageVisitTime: true,
-            disableAjaxTracking: false
+            disableAjaxTracking: true
             //verboseLogging: true,
             //enableDebug: true
         });

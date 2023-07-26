@@ -17,3 +17,11 @@ VS Code
 6. Run `git add .` to add to git repo.
 7. Run `git commit -m "your check in message"` to create a commit.
 8. Run `git push` to sync to source control.
+
+
+# Power Apps Checker for Static Code Analysis
+## Tools
+PAC CLI
+Source Control
+## Steps
+1. Run `pac solution check --path **\\*.zip --ruleSet 0ad12346-e108-40b8-a956-9a8f95ea18c9 --customEndpoint https://<org>.crm.dynamics.com/ --outputDirectory PowerAppsChecker\\checker-output --saveResults true`
