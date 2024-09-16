@@ -30,16 +30,20 @@ jobs:
         uses: microsoft/powerplatform-actions/who-am-i@v1
         with:
           environment-url: 'https://alyousse.crm.dynamics.com'
-          user-name: ${{ secrets.CRM_ONLINE_USER }}
-          password-secret: ${{ secrets.CRM_ONLINE_PWD }}
+          app-id: ${{ secrets.CARGO_CRM_USER }}
+          client-secret: ${{ secrets.CARGO_CRM_PWD }}
+          tenant-id: '1557f771-4c8e-4dbd-8b80-dd00a88e833e'
         
       # Export Solution with variable
       - name: Export Solution
         uses: microsoft/powerplatform-actions/export-solution@v1
         with:
-          environment-url: 'https://cargo360-dev.crm.dynamics.com'
-          user-name: ${{ secrets.CARGO_CRM_USER }}
-          password-secret: ${{ secrets.CARGO_CRM_PASSWD }}
+          environment-url: 'https://alyousse.crm.dynamics.com'
+          app-id: ${{ secrets.CARGO_CRM_USER }}
+          client-secret: ${{ secrets.CARGO_CRM_PWD }}
+          tenant-id: '1557f771-4c8e-4dbd-8b80-dd00a88e833e'
+          #user-name: ${{ secrets.CARGO_CRM_USER }}
+          #password-secret: ${{ secrets.CARGO_CRM_PASSWD }}
           solution-name: ${{ inputs.solutionName }}
           solution-output-file: '${{ inputs.solutionName }}.zip'
           working-directory: 'out'
