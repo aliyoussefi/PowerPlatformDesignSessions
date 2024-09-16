@@ -1,0 +1,68 @@
+# This is a basic workflow to help you get started with Actions
+name: Export Solution From Dev and Add to Source Control
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  workflow_dispatch:
+    inputs:
+      solutionName:
+        description: "Solution Name"
+        required: true
+        default: "default value"  
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  Commit:
+    # The type of runner that the job will run on
+    runs-on: windows-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+        
+      # Install Power Platform tools for working with solutions
+      - name: Install Power Platform Tools
+        uses: microsoft/powerplatform-actions/actions-install@v1
+      - name: 'who-am-i'
+        uses: microsoft/powerplatform-actions/who-am-i@v1
+        with:
+          environment-url: 'https://cargo360-dev.crm.dynamics.com'
+          user-name: ${{ secrets.CARGO_CRM_USER }}
+          password-secret: ${{ secrets.CARGO_CRM_PASSWD }}
+        
+      # Export Solution with variable
+      - name: Export Solution
+        uses: microsoft/powerplatform-actions/export-solution@v1
+        with:
+          environment-url: 'https://cargo360-dev.crm.dynamics.com'
+          user-name: ${{ secrets.CARGO_CRM_USER }}
+          password-secret: ${{ secrets.CARGO_CRM_PASSWD }}
+          solution-name: ${{ inputs.solutionName }}
+          solution-output-file: '${{ inputs.solutionName }}.zip'
+          working-directory: 'out'
+          
+      # Unpack solution to working folder
+      - name: Unpack Solution
+        uses: microsoft/powerplatform-actions/unpack-solution@v1
+        with:
+          solution-file: 'out/${{ inputs.solutionName }}.zip'
+          solution-folder: 'out/solutions/${{ inputs.solutionName }}'
+          solution-type: 'Unmanaged'
+          overwrite-files: true
+
+      - name: Check into repo
+        uses: actions/github-script@v7.0.1
+        with:
+          # The script to run
+          script: 
+              echo Write your commands here
+              git config user.email "test@test.com"
+              git config user.name "test@test.com"
+              git checkout main
+              git add --all
+              git commit -m "solution init"
+              echo push code to new repo 
+              git -c http.extraheader="AUTHORIZATION:bearer ${{ github.token }}" push origin main
