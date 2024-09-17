@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{98fc7ee2-57ef-ed11-8849-00224824eeac}</WebResourceId>
+  <Name>ali_/html/applicationinsights/monitoringInstructions.html</Name>
+  <DisplayName>/html/applicationinsights/monitoringInstructions.html</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ali_htmlapplicationinsightsmonitoringInstructionsh98FC7EE2-57EF-ED11-8849-00224824EEAC</FileName>
+</WebResource>

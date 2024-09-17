@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="Dynamics.Samples.Plugins.v9.ReadOrganizerPartyList: Retrieve of appointment" SdkMessageProcessingStepId="{7ca3f426-2a41-e911-a984-000d3a1bec70}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>f2bdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>Dynamics.Samples.Plugins.v9.ReadOrganizerPartyList, Dynamics.Samples.Plugins.v9, Version=1.0.0.0, Culture=neutral, PublicKeyToken=313a1a4f3b2c4cfe</PluginTypeName>
+  <PluginTypeId>b84d07d6-aea5-4bf3-9c58-27daebb862e2</PluginTypeId>
+  <PrimaryEntity>appointment</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>Dynamics.Samples.Plugins.v9.ReadOrganizerPartyList: Retrieve of appointment</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>40</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{61e996d3-be00-ef11-a1fd-6045bdffe282}</WebResourceId>
+  <Name>ali_/scripts/pva_bot_case.js</Name>
+  <DisplayName>/scripts/pva_bot_case.js</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ali_scriptspva_bot_casejs61E996D3-BE00-EF11-A1FD-6045BDFFE282</FileName>
+</WebResource>

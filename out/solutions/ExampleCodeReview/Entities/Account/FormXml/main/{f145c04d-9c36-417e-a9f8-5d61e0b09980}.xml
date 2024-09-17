@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f145c04d-9c36-417e-a9f8-5d61e0b09980}</formid>
+    <IntroducedVersion>1.0.0.6</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" labelid="{bb8a612d-6300-4271-a7ba-a07b22689d1c}" ordinalvalue="0">
+          <columns>
+            <column width="28%" id="0">
+              <sections>
+                <section name="ACCOUNT_INFORMATION" showlabel="true" showbar="false" id="{0eb92e6c-bcb8-0d52-a188-d81543ddb7cd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{bf5efc25-3ae8-4261-9204-e496da4c3adb}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{b0e82a7e-5683-d90c-308a-0d779377ea8a}" showlabel="true" labelid="{ff0b6572-153e-4d89-83b2-6e3894b4f86b}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Account Name" languagecode="1033" solutionaction="Added" />
+                          <label description="اسم الحساب" languagecode="1025" solutionaction="Added" />
+                          <label description="Kontuaren izena" languagecode="1069" solutionaction="Added" />
+                          <label description="Име на партньор" languagecode="1026" solutionaction="Added" />
+                          <label description="Nom del compte" languagecode="1027" solutionaction="Added" />
+                          <label description="客戶名稱" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3441a91e-47c5-672c-7a20-902d6baa9036}" showlabel="true" labelid="{087c3565-85f6-4c2e-a843-7499afcdeee3}" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b98a55e-a345-b20e-d46e-801e79d5c1c1}" showlabel="true" labelid="{529bf617-f0a5-43b3-b6c8-80c176626949}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Fax" languagecode="1033" solutionaction="Added" />
+                          <label description="الفاكس" languagecode="1025" solutionaction="Added" />
+                          <label description="Faxa" languagecode="1069" solutionaction="Added" />
+                          <label description="Факс" languagecode="1026" solutionaction="Added" />
+                          <label description="Fax" languagecode="1027" solutionaction="Added" />
+                          <label description="傳真" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e6441984-4343-813a-aa7e-e2747ad35390}" showlabel="true" labelid="{38060448-c1dc-4d03-abc9-a16a3829ea46}" ordinalvalue="10003">
+                        <labels>
+                          <label description="Website" languagecode="1033" solutionaction="Added" />
+                          <label description="موقع الويب" languagecode="1025" solutionaction="Added" />
+                          <label description="Webgunea" languagecode="1069" solutionaction="Added" />
+                          <label description="Уеб сайт" languagecode="1026" solutionaction="Added" />
+                          <label description="Lloc web" languagecode="1027" solutionaction="Added" />
+                          <label description="網站" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{87DE203E-B03C-44CC-8B06-438202B82553}" labelid="{bb5a288d-1691-4c0f-8ce3-68070284070c}" ordinalvalue="10004">
+                        <labels>
+                          <label description="Parent Account" languagecode="1033" solutionaction="Added" />
+                          <label description="الحساب الأصل" languagecode="1025" solutionaction="Added" />
+                          <label description="Kontu nagusia" languagecode="1069" solutionaction="Added" />
+                          <label description="Родителски акаунт" languagecode="1026" solutionaction="Added" />
+                          <label description="Compte principal" languagecode="1027" solutionaction="Added" />
+                          <label description="上層客戶" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5f38af3a-3307-47dc-b36d-d9a5de525e6e}" showlabel="true" labelid="{a670d5aa-581d-4c0a-9fc6-4822fef3ad13}" ordinalvalue="10005">
+                        <labels>
+                          <label description="Ticker Symbol" languagecode="1033" solutionaction="Added" />
+                          <label description="رمز التيكر" languagecode="1025" solutionaction="Added" />
+                          <label description="Balioaren ikurra" languagecode="1069" solutionaction="Added" />
+                          <label description="Борсов код" languagecode="1026" solutionaction="Added" />
+                          <label description="Símbol de cotització" languagecode="1027" solutionaction="Added" />
+                          <label description="股票看板代號" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="ADDRESS" showlabel="true" locklevel="0" showbar="false" id="{cc0fe06e-4b5f-4648-A62d-84d1514e1fc5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{cf2774ac-1a25-4950-baec-61ea282bdb10}" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{4913500e-605a-809b-e99e-69e2710d09bd}" showlabel="false" locklevel="0" labelid="{976a53a7-876f-4054-8db9-26be848ad79d}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Address 1" languagecode="1033" solutionaction="Added" />
+                          <label description="العنوان 1" languagecode="1025" solutionaction="Added" />
+                          <label description="1. helbidea" languagecode="1069" solutionaction="Added" />
+                          <label description="Адрес 1" languagecode="1026" solutionaction="Added" />
+                          <label description="Adreça 1" languagecode="1027" solutionaction="Added" />
+                          <label description="地址 1" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="44%" id="1">
+              <sections>
+                <section name="SOCIAL_PANE_TAB" showlabel="false" showbar="false" id="{7a073b7c-5422-2418-3d26-b2a7eb290832}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Top" locklevel="0" celllabelalignment="Left" labelid="{865ec6ef-4312-485e-a174-eccf550c4072}" ordinalvalue="0">
+                  <rows />
+                </section>
+              </sections>
+            </column>
+            <column width="28%" id="2">
+              <sections>
+                <section name="SUMMARY_TAB_section_6" showlabel="false" showbar="false" locklevel="0" id="{d4c3ee9c-ba71-5cdb-31be-2aa505750472}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" labelid="{1298196a-d6fe-4c8e-aaf0-241e4b99a5cc}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{b187688c-8410-5990-16ec-e153968ab583}" showlabel="true" locklevel="0" labelid="{22d4cebb-b423-485c-9258-27d7297f6e09}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" solutionaction="Added" />
+                          <label description="جهة الاتصال الرئيسية" languagecode="1025" solutionaction="Added" />
+                          <label description="Kontaktu nagusia" languagecode="1069" solutionaction="Added" />
+                          <label description="Основен контакт" languagecode="1026" solutionaction="Added" />
+                          <label description="Contacte principal" languagecode="1027" solutionaction="Added" />
+                          <label description="主要連絡人" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0F664FFF-E39E-4676-9191-CBA16972B21D}" colspan="1" showlabel="false" labelid="{6134c7ac-b75e-4cd6-8c5b-a401270bc3ce}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" solutionaction="Added" />
+                          <label description="جهة الاتصال الرئيسية" languagecode="1025" solutionaction="Added" />
+                          <label description="Kontaktu nagusia" languagecode="1069" solutionaction="Added" />
+                          <label description="Основен контакт" languagecode="1026" solutionaction="Added" />
+                          <label description="Contacte principal" languagecode="1027" solutionaction="Added" />
+                          <label description="主要連絡人" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8e24c7e3-6a40-5abb-eadb-254eba5478e2}" showlabel="true" colspan="1" auto="false" rowspan="7" labelid="{03994db5-d7d1-48b3-aae8-08b46d8c1124}" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{245158ED-C47A-4BB5-AAC7-E8C96A655801}" showlabel="true" rowspan="8" colspan="1" auto="false" labelid="{f80eb202-b6cf-41c9-b810-baf1a32cb1a9}" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3E27EE84-1A25-418B-85F5-CDCC7CD5918D}" showlabel="true" rowspan="8" colspan="1" auto="false" labelid="{280ebc48-0b3b-42ec-9d3f-8e14e9373514}" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c745e48-587d-beb8-297d-055b604013b2}" showlabel="true" colspan="1" auto="false" rowspan="7" labelid="{4c5c6ea1-b37b-4d96-b66a-af0ee2094e71}" ordinalvalue="10005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ee0d41a1-28b1-6a70-b449-b1d9635d49b0}" showlabel="true" colspan="1" auto="false" rowspan="7" ordinalvalue="10006">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e19a2ac-5843-a793-746d-25abced7d267}" showlabel="true" colspan="1" auto="false" rowspan="7" ordinalvalue="10007">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="DETAILS_TAB" id="{11a42c72-9ded-ea04-253d-2143e731b795}" IsUserDefined="0" showlabel="true" expanded="true" labelid="{65729e6d-2228-4ee5-a2f1-698b5d06a0c5}" ordinalvalue="1">
+          <columns>
+            <column width="34%" id="0">
+              <sections>
+                <section name="COMPANY_PROFILE" showlabel="true" showbar="false" id="{ca8587c5-18c0-cac1-7c34-6c639eade090}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" labelid="{9c6a0557-20d1-4513-a5d9-6be3304ea475}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{59782911-4d1a-38dc-ce49-7dae620dbc51}" showlabel="true" labelid="{8a516c5a-f753-4810-943d-af0eb07b533b}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Industry" languagecode="1033" solutionaction="Added" />
+                          <label description="الصناعة" languagecode="1025" solutionaction="Added" />
+                          <label description="Industria" languagecode="1069" solutionaction="Added" />
+                          <label description="Отрасъл" languagecode="1026" solutionaction="Added" />
+                          <label description="Sector" languagecode="1027" solutionaction="Added" />
+                          <label description="產業" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{930beba3-d531-0808-c403-de95e2ac3e62}" showlabel="true" labelid="{9b711f4e-c1c8-4ced-90eb-87b898d96b3c}" ordinalvalue="10001">
+                        <labels>
+                          <label description="SIC Code" languagecode="1033" solutionaction="Added" />
+                          <label description="رمز SIC" languagecode="1025" solutionaction="Added" />
+                          <label description="SIC kodea" languagecode="1069" solutionaction="Added" />
+                          <label description="SIC код" languagecode="1026" solutionaction="Added" />
+                          <label description="Codi SIC" languagecode="1027" solutionaction="Added" />
+                          <label description="標準產業分類碼 (SIC code)" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c33ad89-92a1-8433-2378-306259eb57c0}" showlabel="true" labelid="{0e42e2dd-bec0-421b-a02d-139fa501ba69}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Ownership" languagecode="1033" solutionaction="Added" />
+                          <label description="الملكية" languagecode="1025" solutionaction="Added" />
+                          <label description="Jabetza" languagecode="1069" solutionaction="Added" />
+                          <label description="Собственост" languagecode="1026" solutionaction="Added" />
+                          <label description="Propietat" languagecode="1027" solutionaction="Added" />
+                          <label description="擁有權" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="DETAILS_TAB_section_6" showlabel="true" showbar="false" locklevel="0" id="{e201b9ce-c3d5-c922-dba5-528c25066940}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" height="auto" labelid="{44a0c73c-9731-4184-8f50-6aba73a8d24a}" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{a4a726a2-8e3e-79d0-02c3-0a04a6b71089}" showlabel="false" locklevel="0" rowspan="3" auto="true" labelid="{cba86a5c-baa8-40d2-a6b8-00b0b6e4517f}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Description" languagecode="1033" solutionaction="Added" />
+                          <label description="الوصف" languagecode="1025" solutionaction="Added" />
+                          <label description="Azalpena" languagecode="1069" solutionaction="Added" />
+                          <label description="Описание" languagecode="1026" solutionaction="Added" />
+                          <label description="Descripció" languagecode="1027" solutionaction="Added" />
+                          <label description="描述" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="1">
+              <sections>
+                <section name="MARKETING" showlabel="true" locklevel="0" showbar="false" id="{767ab9cb-cb99-45f4-bd68-32742a864c7c}" IsUserDefined="0" layout="varheight" columns="1" labelwidth="115" celllabelposition="Left" labelid="{cba58bc4-ce23-461d-99e9-6e7ff3ba2408}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{b9c3d8fd-12a2-4474-b937-43da8Be00e6f}" labelid="{0cfe1a80-4aa3-4401-8557-4ded112e8e81}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Originating Lead" languagecode="1033" solutionaction="Added" />
+                          <label description="العميل المتوقع المصدر" languagecode="1025" solutionaction="Added" />
+                          <label description="Jatorrizko bezerogaia" languagecode="1069" solutionaction="Added" />
+                          <label description="Първоначален потенциален клиент" languagecode="1026" solutionaction="Added" />
+                          <label description="Client potencial original" languagecode="1027" solutionaction="Added" />
+                          <label description="原始潛在客戶" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{86b0d247-2f08-455c-a135-91f73860575d}" labelid="{125743da-8792-4e64-a34e-35f4a143a666}" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{0013a9f1-6d23-4080-87a8-f040e1c673fb}" labelid="{9d3e45b0-f31a-46b5-8a15-106cd743d920}" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="CONTACT_PREFERENCES" showlabel="true" showbar="false" id="{2787a122-55d5-4c8d-9b21-c8d4ec8cc3fc}" IsUserDefined="0" columns="1" labelwidth="115" celllabelposition="Left" labelid="{fa14699e-6b2a-4ac7-9709-2b4573b23cbd}" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{e651d783-6c9f-4e8d-981c-c9577e344e7b}" labelid="{e3bee24e-6432-4368-a5d2-9142e6380b09}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0a536c64-788d-4f22-a388-fbddfdee8142}" labelid="{27a330e2-9fb6-46eb-9e24-ceca56397aab}" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cfa09fa5-ccb6-4f97-bd8d-d7e037a7aab1}" labelid="{01ff1266-cc89-4eca-af17-fa18a55a43d0}" ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f587cb66-b142-47c9-bc7a-009875261840}" labelid="{e6c8f859-3abf-42eb-aba3-0b33f4dbfa1d}" ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12927a20-3614-4546-89fc-9bdbd9b7432f}" labelid="{e7300416-73a2-4d4b-8c6e-838a53b5f6c1}" ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ed50e866-7968-483d-8388-0e6313d3c784}" labelid="{f7d013c9-bf46-4a77-8cca-622701f7df8b}" ordinalvalue="10005">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%" id="2">
+              <sections>
+                <section name="BILLING" showlabel="true" showbar="false" id="{910de80a-a17e-092a-255d-44d775cb4207}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" locklevel="0" celllabelalignment="Left" labelid="{49c60e4c-7ad6-4d27-8fb2-bc0952e7f0c6}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{7cd2b88c-b25c-4729-9c27-f59ebb5a1538}" labelid="{c3fbe8c9-1b90-4c0e-8d6a-fd9e0aa770ed}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Currency" languagecode="1033" solutionaction="Added" />
+                          <label description="عملة" languagecode="1025" solutionaction="Added" />
+                          <label description="Moneta" languagecode="1069" solutionaction="Added" />
+                          <label description="Валута" languagecode="1026" solutionaction="Added" />
+                          <label description="Moneda" languagecode="1027" solutionaction="Added" />
+                          <label description="貨幣" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0125719c-a5b0-4230-9817-3fba5d6ebfaf}" labelid="{95912546-6a38-457c-80d3-549e3fe2e501}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Credit Limit" languagecode="1033" solutionaction="Added" />
+                          <label description="حد الائتمان" languagecode="1025" solutionaction="Added" />
+                          <label description="Kredituaren muga" languagecode="1069" solutionaction="Added" />
+                          <label description="Лимит по кредит" languagecode="1026" solutionaction="Added" />
+                          <label description="Límit de crèdit" languagecode="1027" solutionaction="Added" />
+                          <label description="信用額度" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{abc2c862-bcd4-4a4b-ac51-c311d4e66d5b}" labelid="{b0792986-6ac5-4694-8925-cedea7b9fa9d}" ordinalvalue="10002">
+                        <labels>
+                          <label description="Credit Hold" languagecode="1033" solutionaction="Added" />
+                          <label description="حامل الائتمان" languagecode="1025" solutionaction="Added" />
+                          <label description="Kreditu-atxikipena" languagecode="1069" solutionaction="Added" />
+                          <label description="Блокиран кредит" languagecode="1026" solutionaction="Added" />
+                          <label description="Retenció del crèdit" languagecode="1027" solutionaction="Added" />
+                          <label description="信用凍結" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0bab9157-d14e-441f-969d-80460634c15e}" labelid="{192f94fc-9b2e-4ea7-bab3-a6f8ef348790}" ordinalvalue="10003">
+                        <labels>
+                          <label description="Payment Terms" languagecode="1033" solutionaction="Added" />
+                          <label description="شروط السداد" languagecode="1025" solutionaction="Added" />
+                          <label description="Ordainketa-baldintzak" languagecode="1069" solutionaction="Added" />
+                          <label description="Условия на плащане" languagecode="1026" solutionaction="Added" />
+                          <label description="Condicions de pagament" languagecode="1027" solutionaction="Added" />
+                          <label description="付款條件" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="SHIPPING" showlabel="true" showbar="false" id="{d61ba33b-9648-d541-459d-ae145a6854db}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelposition="Left" locklevel="0" celllabelalignment="Left" labelid="{3e287a57-fd57-45f3-9506-33528a73c1bc}" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{4d2e776d-7d85-c51b-3900-1ae7323b0a6b}" showlabel="true" labelid="{57b6be02-7ca4-4819-9b3e-86ec29ee622c}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{02719696-a5da-b791-48c3-4e8cb8b110d5}" showlabel="true" labelid="{b38649b9-ed68-47f7-b1af-5e1264e8d3e0}" ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="ChildAccounts" showlabel="true" showbar="false" locklevel="0" id="{1e0e4517-ba6b-1540-53a9-09647d67443a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{e704901b-d48c-4cb5-be4e-62dcd11785db}" ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell id="{8b1d7a7a-972c-78c1-d287-82ec5b33d167}" showlabel="false" colspan="1" auto="false" rowspan="6" labelid="{7edbfeab-3fa2-47d4-be81-605d84f3f20d}" ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="a88e54d5-4b48-4f46-825c-05c6c578c6ca" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="2" solutionaction="Added">
+          <labels>
+            <label description="Question 01" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_3_section_1" id="addb0d84-5b98-4c7d-9de7-a50568befe4d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{59e89cb8-c8b5-4e32-bd24-d16c861f6903}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Account Number1" languagecode="1033" />
+                          <label description="رقم الحساب" languagecode="1025" />
+                          <label description="Kontu-zenbakia" languagecode="1069" />
+                          <label description="Номер на партньор" languagecode="1026" />
+                          <label description="Número de compte" languagecode="1027" />
+                          <label description="客戶編碼" languagecode="3076" />
+                        </labels>
+                        <control id="accountnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="accountnumber" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_4" id="6ad3a06c-c5f3-47bd-b495-4573d8d069c0" IsUserDefined="0" locklevel="0" showlabel="true" ordinalvalue="3" solutionaction="Added">
+          <labels>
+            <label description="Question 02" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="tab_4_section_1" id="bfa0b485-171f-4693-9779-16269a07a4a5" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="0">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{967b0658-ef9b-4721-a97d-1f7eba954e66}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Address 1: Street 1" languagecode="1033" />
+                          <label description="العنوان 1: الشارع 1" languagecode="1025" />
+                          <label description="1. helbidea: 1. kalea" languagecode="1069" />
+                          <label description="Адрес 1: Улица 1" languagecode="1026" />
+                          <label description="Adreça 1: carrer 1" languagecode="1027" />
+                          <label description="地址 1: 街道 1" languagecode="3076" />
+                        </labels>
+                        <control id="address1_line1" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_line1" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{82c37658-abc0-435c-9bb2-497cf35060f5}" showlabel="true" locklevel="0" ordinalvalue="10001">
+                        <labels>
+                          <label description="Address 1: City" languagecode="1033" />
+                          <label description="العنوان 1: المدينة" languagecode="1025" />
+                          <label description="1. helbidea: herria" languagecode="1069" />
+                          <label description="Адрес 1: Град" languagecode="1026" />
+                          <label description="Adreça 1: ciutat" languagecode="1027" />
+                          <label description="地址 1: 市/鎮" languagecode="3076" />
+                        </labels>
+                        <control id="address1_city" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_city" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76d2f1b3-7c58-4e6c-b429-77c99b793fdc}" showlabel="true" locklevel="0" ordinalvalue="10002">
+                        <labels>
+                          <label description="Address 1: State/Province" languagecode="1033" />
+                          <label description="العنوان 1: المحافظة/المنطقة" languagecode="1025" />
+                          <label description="1. helbidea: estatua/probintzia" languagecode="1069" />
+                          <label description="Адрес 1: Държава/Провинция" languagecode="1026" />
+                          <label description="Adreça 1: província o estat" languagecode="1027" />
+                          <label description="地址 1: 縣/市" languagecode="3076" />
+                        </labels>
+                        <control id="address1_stateorprovince" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_stateorprovince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d69b54d6-e5b3-46df-87b4-aa7836959f57}" showlabel="true" locklevel="0" ordinalvalue="10003">
+                        <labels>
+                          <label description="Address 1: County" languagecode="1033" />
+                          <label description="العنوان 1: المقاطعة" languagecode="1025" />
+                          <label description="1. helbidea: konderria" languagecode="1069" />
+                          <label description="Адрес 1: Страна" languagecode="1026" />
+                          <label description="Adreça 1: districte" languagecode="1027" />
+                          <label description="地址 1: 縣市" languagecode="3076" />
+                        </labels>
+                        <control id="address1_county" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="address1_county" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_4_section_3" id="679aa519-2016-48f9-a38c-f03b4eb01725" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" ordinalvalue="1">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0d57babc-e459-4912-a204-ee37f352c168}" showlabel="true" locklevel="0" ordinalvalue="10000">
+                        <labels>
+                          <label description="Email Address 2" languagecode="1033" />
+                          <label description="عنوان البريد الإلكتروني 2" languagecode="1025" />
+                          <label description="2. helbide elektronikoa" languagecode="1069" />
+                          <label description="Имейл адрес 2" languagecode="1026" />
+                          <label description="Adreça electrònica 2" languagecode="1027" />
+                          <label description="電子郵件地址 2" languagecode="3076" />
+                        </labels>
+                        <control id="emailaddress2" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="emailaddress2" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d5a03552-1183-4347-a237-1f894ba449eb}" columns="111" celllabelposition="Top" labelwidth="115">
+        <rows>
+          <row>
+            <cell id="{d3e19d4e-b2ae-409f-9b4e-5976527c6c83}" labelid="{21200cc9-6a29-43dd-bc10-25985a2bed76}" ordinalvalue="10000">
+              <labels>
+                <label description="Annual Revenue" languagecode="1033" solutionaction="Added" />
+                <label description="الإيراد السنوي" languagecode="1025" solutionaction="Added" />
+                <label description="Urteko diru-sarrerak" languagecode="1069" solutionaction="Added" />
+                <label description="Годишен приход" languagecode="1026" solutionaction="Added" />
+                <label description="Ingressos anuals" languagecode="1027" solutionaction="Added" />
+                <label description="年度營收" languagecode="3076" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{2adb5a52-604d-5aad-ba6a-2bbab6c33594}" showlabel="true" labelid="{6963f0cc-65a7-4ee9-ab27-0d286ba1c03c}" ordinalvalue="20001">
+              <labels>
+                <label description="Number of Employees" languagecode="1033" solutionaction="Added" />
+                <label description="عدد الموظفين" languagecode="1025" solutionaction="Added" />
+                <label description="Langile kopurua" languagecode="1069" solutionaction="Added" />
+                <label description="Брой на служители" languagecode="1026" solutionaction="Added" />
+                <label description="Nombre d'empleats" languagecode="1027" solutionaction="Added" />
+                <label description="員工數" languagecode="3076" solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell id="{54b2d0a2-eb77-b3cd-b60a-03ea6944e98e}" showlabel="true" locklevel="1" labelid="{9980a2b2-b655-4548-9e35-e4e204df8d86}" ordinalvalue="30002">
+              <labels>
+                <label description="Owner" languagecode="1033" solutionaction="Added" />
+                <label description="المالك" languagecode="1025" solutionaction="Added" />
+                <label description="Jabea" languagecode="1069" solutionaction="Added" />
+                <label description="Собственик" languagecode="1026" solutionaction="Added" />
+                <label description="Propietari" languagecode="1027" solutionaction="Added" />
+                <label description="負責人" languagecode="3076" solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{6c596f79-d22e-4b0a-a105-902b5cb069e7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows></rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Portal Account" languagecode="1025" />
+      <LocalizedName description="Portal Account" languagecode="1026" />
+      <LocalizedName description="Portal Account" languagecode="1027" />
+      <LocalizedName description="Portal Account" languagecode="1033" />
+      <LocalizedName description="Portal Account" languagecode="1069" />
+      <LocalizedName description="Portal Account" languagecode="3076" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="نموذج لهذا الكيان." languagecode="1025" />
+      <Description description="Формуляр за този обект." languagecode="1026" />
+      <Description description="Formulari per a aquesta entitat." languagecode="1027" />
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Entitate honen inprimakia." languagecode="1069" />
+      <Description description="這個實體的表單。" languagecode="3076" />
+    </Descriptions>
+  </systemform>
+</forms>

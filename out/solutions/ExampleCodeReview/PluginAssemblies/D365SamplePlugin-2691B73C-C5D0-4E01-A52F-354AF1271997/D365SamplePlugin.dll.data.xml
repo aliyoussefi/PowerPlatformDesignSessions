@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly FullName="D365.SamplePlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ee62f4e90629f92f" PluginAssemblyId="2691b73c-c5d0-4e01-a52f-354af1271997" CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <FileName>/PluginAssemblies/D365SamplePlugin-2691B73C-C5D0-4E01-A52F-354AF1271997/D365SamplePlugin.dll</FileName>
+  <PluginTypes>
+    <PluginType AssemblyQualifiedName="D365.SamplePlugin.ConnectServiceWithMSAL, D365.SamplePlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ee62f4e90629f92f" PluginTypeId="f85176b1-3fcc-4aa0-a025-1823edaf820d" Name="D365.SamplePlugin.ConnectServiceWithMSAL">
+      <FriendlyName>3aa073e4-be7a-4caa-ba59-4391e85d1b9f</FriendlyName>
+    </PluginType>
+    <PluginType AssemblyQualifiedName="D365.SamplePlugin.DoDynamicsAction, D365.SamplePlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ee62f4e90629f92f" PluginTypeId="47ede4cd-236a-40b5-8e62-7c1214cc3383" Name="D365.SamplePlugin.DoDynamicsAction">
+      <FriendlyName>ed00780f-980f-4338-925e-749648bfd691</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{8ce9d6bc-78fe-ee11-a1fe-6045bdffee79}</WebResourceId>
+  <Name>ali_/html/pva_custom.html</Name>
+  <DisplayName>/html/pva_custom.html</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ali_htmlpva_customhtml8CE9D6BC-78FE-EE11-A1FE-6045BDFFEE79</FileName>
+</WebResource>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{69cff312-cfb6-4289-9631-249ab85d2c62}</formid>
+    <IntroducedVersion>7.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab name="hierarchy" verticallayout="true" id="{ee701130-9f7e-4c91-b842-ac167874416d}" IsUserDefined="0" ordinalvalue="0">
+          <columns>
+            <column width="100%" id="0">
+              <sections>
+                <section name="account tile" id="{7d0de66d-72fd-4e03-8a38-941bc343a644}" ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell id="{14783db0-8a16-4ee9-9d02-c58887109913}" ordinalvalue="10000">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7dbb897d-ae3b-4f49-b03c-b51042b70931}" ordinalvalue="10001">
+                        <labels>
+                          <label description="Owner" languagecode="1033" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{54e09ca5-6c59-560b-b2ba-a0d82e6ae516}" showlabel="true" locklevel="0" ordinalvalue="10005" solutionaction="Modified">
+                        <labels>
+                          <label description="Open Revenue" languagecode="1033" solutionaction="Modified" />
+                          <label description="العائد المفتوح" languagecode="1025" solutionaction="Added" />
+                          <label description="Diru-sarrera irekiak" languagecode="1069" solutionaction="Added" />
+                          <label description="Отворени приходи" languagecode="1026" solutionaction="Added" />
+                          <label description="Ingressos oberts" languagecode="1027" solutionaction="Added" />
+                          <label description="未實現營收" languagecode="3076" solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9c7004ec-51b9-32d8-4608-82eb65755796}" showlabel="true" locklevel="0" ordinalvalue="10003" solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell id="{9169143c-8a65-4cb0-a756-5ac50900b41e}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10002" solutionaction="Added">
+                        <labels>
+                          <label description="Annual Revenue" languagecode="1033" />
+                          <label description="الإيراد السنوي" languagecode="1025" />
+                          <label description="Urteko diru-sarrerak" languagecode="1069" />
+                          <label description="Годишен приход" languagecode="1026" />
+                          <label description="Ingressos anuals" languagecode="1027" />
+                          <label description="年度營收" languagecode="3076" />
+                        </labels>
+                        <control id="revenue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="revenue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{03a7c6d7-5e03-4061-bcb2-028ae9f5c048}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10003" solutionaction="Added">
+                        <labels>
+                          <label description="Number of Employees" languagecode="1033" />
+                          <label description="عدد الموظفين" languagecode="1025" />
+                          <label description="Langile kopurua" languagecode="1069" />
+                          <label description="Брой на служители" languagecode="1026" />
+                          <label description="Nombre d'empleats" languagecode="1027" />
+                          <label description="員工數" languagecode="3076" />
+                        </labels>
+                        <control id="numberofemployees" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="numberofemployees" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{727708bb-1e44-4a3e-82b7-8db8135e3c14}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10004" solutionaction="Added">
+                        <labels>
+                          <label description="Ticker Symbol" languagecode="1033" />
+                          <label description="رمز التيكر" languagecode="1025" />
+                          <label description="Balioaren ikurra" languagecode="1069" />
+                          <label description="Борсов код" languagecode="1026" />
+                          <label description="Símbol de cotització" languagecode="1027" />
+                          <label description="股票看板代號" languagecode="3076" />
+                        </labels>
+                        <control id="tickersymbol" classid="{1E1FC551-F7A8-43AF-AC34-A8DC35C7B6D4}" datafieldname="tickersymbol" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ddbc11f-002f-44a1-8b40-5e98bd387d77}" locklevel="0" colspan="1" rowspan="1" ordinalvalue="10006" solutionaction="Added">
+                        <labels>
+                          <label description="Address 1" languagecode="1033" />
+                          <label description="العنوان 1" languagecode="1025" />
+                          <label description="1. helbidea" languagecode="1069" />
+                          <label description="Адрес 1" languagecode="1026" />
+                          <label description="Adreça 1" languagecode="1027" />
+                          <label description="地址 1" languagecode="3076" />
+                        </labels>
+                        <control id="address1_composite" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="address1_composite" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true" solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="" languagecode="1025" />
+      <LocalizedName description="" languagecode="1026" />
+      <LocalizedName description="" languagecode="1027" />
+      <LocalizedName description="Account Hierarchy Tile Form" languagecode="1033" />
+      <LocalizedName description="" languagecode="1069" />
+      <LocalizedName description="" languagecode="3076" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="هذا هو تعريف التدرج الهرمي للعملاء." languagecode="1025" />
+      <Description description="Това е дефиницията на йерархията на акаунта." languagecode="1026" />
+      <Description description="Aquesta és la definició de jerarquia del compte." languagecode="1027" />
+      <Description description="This is the account hierarchy definition." languagecode="1033" />
+      <Description description="Kontuaren hierarkiaren definizioa da hau." languagecode="1069" />
+      <Description description="這是客戶階層定義。" languagecode="3076" />
+    </Descriptions>
+  </systemform>
+</forms>

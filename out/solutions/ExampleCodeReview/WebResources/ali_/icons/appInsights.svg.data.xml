@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{9fa813cf-f1ef-ed11-8849-00224823fa6d}</WebResourceId>
+  <Name>ali_/icons/appInsights.svg</Name>
+  <DisplayName>/icons/appInsights.svg</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/ali_iconsappInsightssvg9FA813CF-F1EF-ED11-8849-00224823FA6D</FileName>
+</WebResource>

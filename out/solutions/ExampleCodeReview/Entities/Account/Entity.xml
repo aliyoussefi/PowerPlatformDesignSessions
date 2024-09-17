@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="Account" OriginalName="">Account</Name>
+  <EntityInfo>
+    <entity Name="Account">
+      <LocalizedNames>
+        <LocalizedName description="Account" languagecode="1033" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Accounts" languagecode="1033" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Business that represents a customer or potential customer. The company that is billed in business transactions." languagecode="1033" />
+      </Descriptions>
+      <attributes>
+        <attribute PhysicalName="AccountNumber">
+          <Type>nvarchar</Type>
+          <Name>accountnumber</Name>
+          <LogicalName>accountnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>20</MaxLength>
+          <Length>40</Length>
+          <displaynames>
+            <displayname description="Account Number1" languagecode="1033" />
+            <displayname description="رقم الحساب" languagecode="1025" />
+            <displayname description="Kontu-zenbakia" languagecode="1069" />
+            <displayname description="Номер на партньор" languagecode="1026" />
+            <displayname description="Número de compte" languagecode="1027" />
+            <displayname description="客戶編碼" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type an ID number or code for the account to quickly search and identify the account in system views." languagecode="1033" />
+            <Description description="اكتب رقم معرّف أو رمز العميل للبحث بسرعة عن العميل والتعرف عليه في طرق عرض النظام." languagecode="1025" />
+            <Description description="Idatzi ID zenbaki edo kode bat kontuarentzat, kontua azkar bilatu eta identifikatzeko sistemaren ikuspegietan." languagecode="1069" />
+            <Description description="Въведете идентификационен номер или код за клиента за бързо търсене и идентифициране на клиента в системните изгледи." languagecode="1026" />
+            <Description description="Escriviu un número o codi d'identificació per al compte per tal de cercar i identificar ràpidament el compte a les visualitzacions del sistema." languagecode="1027" />
+            <Description description="輸入客戶的識別碼或代碼，以在系統檢視表中快速搜尋和識別客戶。" languagecode="3076" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Address1_City">
+          <Type>nvarchar</Type>
+          <Name>address1_city</Name>
+          <LogicalName>address1_city</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>80</MaxLength>
+          <Length>160</Length>
+          <displaynames>
+            <displayname description="Address 1: City" languagecode="1033" />
+            <displayname description="العنوان 1: المدينة" languagecode="1025" />
+            <displayname description="1. helbidea: herria" languagecode="1069" />
+            <displayname description="Адрес 1: Град" languagecode="1026" />
+            <displayname description="Adreça 1: ciutat" languagecode="1027" />
+            <displayname description="地址 1: 市/鎮" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the city for the primary address." languagecode="1033" />
+            <Description description="اكتب المدينة الخاصة بالعنوان الرئيسي." languagecode="1025" />
+            <Description description="Idatzi helbide nagusiaren hiria." languagecode="1069" />
+            <Description description="Въведете град за основния адрес." languagecode="1026" />
+            <Description description="Escriviu la ciutat de l'adreça principal." languagecode="1027" />
+            <Description description="輸入主要地址的市/鎮。" languagecode="3076" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="EMailAddress1">
+          <Type>nvarchar</Type>
+          <Name>emailaddress1</Name>
+          <LogicalName>emailaddress1</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>email</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname description="Email" languagecode="1033" />
+            <displayname description="بريد إلكتروني" languagecode="1025" />
+            <displayname description="Helbide elektronikoa" languagecode="1069" />
+            <displayname description="Имейл" languagecode="1026" />
+            <displayname description="Correu electrònic" languagecode="1027" />
+            <displayname description="電子郵件" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the primary email address for the account." languagecode="1033" />
+            <Description description="اكتب عنوان البريد الإلكتروني الرئيسي للعميل." languagecode="1025" />
+            <Description description="Idatzi kontuaren helbide elektroniko nagusia." languagecode="1069" />
+            <Description description="Въведете основния имейл адрес за клиента." languagecode="1026" />
+            <Description description="Escriviu l'adreça de correu electrònic principal del compte." languagecode="1027" />
+            <Description description="輸入客戶的主要電子郵件地址。" languagecode="3076" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Fax">
+          <Type>nvarchar</Type>
+          <Name>fax</Name>
+          <LogicalName>fax</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Fax" languagecode="1033" />
+            <displayname description="الفاكس" languagecode="1025" />
+            <displayname description="Faxa" languagecode="1069" />
+            <displayname description="Факс" languagecode="1026" />
+            <displayname description="Fax" languagecode="1027" />
+            <displayname description="傳真" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the fax number for the account." languagecode="1033" />
+            <Description description="اكتب رقم الفاكس للعميل." languagecode="1025" />
+            <Description description="Idatzi kontuaren fax-zenbakia." languagecode="1069" />
+            <Description description="Въведете факс номер за клиента." languagecode="1026" />
+            <Description description="Escriviu el número de fax del compte." languagecode="1027" />
+            <Description description="輸入客戶的傳真號碼。" languagecode="3076" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msa_managingpartnerid" unmodified="1">
+          <Type>lookup</Type>
+          <Name>msa_managingpartnerid</Name>
+          <LogicalName>msa_managingpartnerid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.21</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Managing Partner" languagecode="1033" />
+            <displayname description="Managing Partner" languagecode="1025" />
+            <displayname description="Managing Partner" languagecode="1026" />
+            <displayname description="Managing Partner" languagecode="1027" />
+            <displayname description="Managing Partner" languagecode="1069" />
+            <displayname description="Managing Partner" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Unique identifier for Account associated with Account." languagecode="1033" />
+            <Description description="Unique identifier for Account associated with Account." languagecode="1025" />
+            <Description description="Unique identifier for Account associated with Account." languagecode="1026" />
+            <Description description="Unique identifier for Account associated with Account." languagecode="1027" />
+            <Description description="Unique identifier for Account associated with Account." languagecode="1069" />
+            <Description description="Unique identifier for Account associated with Account." languagecode="3076" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="msdyn_BillingAccount" unmodified="1">
+          <Type>lookup</Type>
+          <Name>msdyn_billingaccount</Name>
+          <LogicalName>msdyn_billingaccount</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>3.1.0.3</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname description="Billing Account" languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Reference to an other account to be used for billing (only to be used if billing account differs)" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Name">
+          <Type>nvarchar</Type>
+          <Name>name</Name>
+          <LogicalName>name</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ActivityRegardingName|ActivityPointerRegardingName|PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm|RequiredForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>160</MaxLength>
+          <Length>320</Length>
+          <displaynames>
+            <displayname description="Account Name" languagecode="1033" />
+            <displayname description="اسم الحساب" languagecode="1025" />
+            <displayname description="Kontuaren izena" languagecode="1069" />
+            <displayname description="Име на партньор" languagecode="1026" />
+            <displayname description="Nom del compte" languagecode="1027" />
+            <displayname description="客戶名稱" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the company or business name." languagecode="1033" />
+            <Description description="اكتب ‏‏اسم الشركة أو العمل." languagecode="1025" />
+            <Description description="Idatzi enpresaren edo negozioaren izena. " languagecode="1069" />
+            <Description description="Въведете името на бизнеса или фирмата." languagecode="1026" />
+            <Description description="Escriviu el nom de l'empresa o negoci." languagecode="1027" />
+            <Description description="輸入公司名稱。" languagecode="3076" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="PrimaryContactId">
+          <Type>lookup</Type>
+          <Name>primarycontactid</Name>
+          <LogicalName>primarycontactid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>1</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType id="00000000-0000-0000-0000-000000000000">2</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname description="Primary Contact" languagecode="1033" />
+            <displayname description="جهة الاتصال الرئيسية" languagecode="1025" />
+            <displayname description="Kontaktu nagusia" languagecode="1069" />
+            <displayname description="Основен контакт" languagecode="1026" />
+            <displayname description="Contacte principal" languagecode="1027" />
+            <displayname description="主要連絡人" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Choose the primary contact for the account to provide quick access to contact details." languagecode="1033" />
+            <Description description="اختر جهة الاتصال الرئيسية للعميل لتوفير وصول سريع إلى تفاصيل جهة الاتصال. " languagecode="1025" />
+            <Description description="Hautatu kontuaren kontaktu nagusia, kontaktuaren xehetasunetarako sarbide azkarra izan dadin." languagecode="1069" />
+            <Description description="Изберете основно лице за контакт за клиента, за да предоставите бърз достъп до подробните данни за контакт." languagecode="1026" />
+            <Description description="Trieu el contacte principal per al compte per proporcionar un accés ràpid als detalls del contacte." languagecode="1027" />
+            <Description description="選擇客戶的主要連絡人，以快速存取連絡人詳細資料。" languagecode="3076" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="StateCode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset Name="account_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname description="Status" languagecode="1033" />
+              <displayname description="الموقف" languagecode="1025" />
+              <displayname description="Egoera" languagecode="1069" />
+              <displayname description="Състояние" languagecode="1026" />
+              <displayname description="Estat" languagecode="1027" />
+              <displayname description="狀態" languagecode="3076" />
+            </displaynames>
+            <Descriptions>
+              <Description description="Status of the account." languagecode="1033" />
+              <Description description="حالة الحساب." languagecode="1025" />
+              <Description description="Kontuaren egoera." languagecode="1069" />
+              <Description description="Състояние на партньора." languagecode="1026" />
+              <Description description="Estat del compte." languagecode="1027" />
+              <Description description="客戶的狀態。" languagecode="3076" />
+            </Descriptions>
+            <states>
+              <state value="0" defaultstatus="1" invariantname="Active">
+                <labels>
+                  <label description="Active" languagecode="1033" />
+                  <label description="نشط" languagecode="1025" />
+                  <label description="Aktibo" languagecode="1069" />
+                  <label description="Активен" languagecode="1026" />
+                  <label description="Actiu" languagecode="1027" />
+                  <label description="使用中" languagecode="3076" />
+                </labels>
+              </state>
+              <state value="1" defaultstatus="2" invariantname="Inactive">
+                <labels>
+                  <label description="Inactive" languagecode="1033" />
+                  <label description="غير نشط" languagecode="1025" />
+                  <label description="Inaktibo" languagecode="1069" />
+                  <label description="Неактивен" languagecode="1026" />
+                  <label description="Inactiu" languagecode="1027" />
+                  <label description="非使用中" languagecode="3076" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname description="Status" languagecode="1033" />
+            <displayname description="الموقف" languagecode="1025" />
+            <displayname description="Egoera" languagecode="1069" />
+            <displayname description="Състояние" languagecode="1026" />
+            <displayname description="Estat" languagecode="1027" />
+            <displayname description="狀態" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated." languagecode="1033" />
+            <Description description="حالة {0}" languagecode="1025" />
+            <Description description="{0} elementuaren egoera" languagecode="1069" />
+            <Description description="Състояние на {0}" languagecode="1026" />
+            <Description description="Estat de {0}" languagecode="1027" />
+            <Description description="{0}的狀態" languagecode="3076" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Telephone1">
+          <Type>nvarchar</Type>
+          <Name>telephone1</Name>
+          <LogicalName>telephone1</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>1</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>phone</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Main Phone" languagecode="1033" />
+            <displayname description="الهاتف الرئيسي" languagecode="1025" />
+            <displayname description="Telefono nagusia" languagecode="1069" />
+            <displayname description="Основен Телефон" languagecode="1026" />
+            <displayname description="Número de centraleta" languagecode="1027" />
+            <displayname description="主要電話" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type the main phone number for this account." languagecode="1033" />
+            <Description description="اكتب رقم الهاتف الأساسي لهذا العميل." languagecode="1025" />
+            <Description description="Idatzi kontu honen telefono-zenbaki nagusia." languagecode="1069" />
+            <Description description="Въведете основния телефонен номер за този клиент." languagecode="1026" />
+            <Description description="Escriviu el número de telèfon principal d'aquest compte." languagecode="1027" />
+            <Description description="輸入這個客戶的主要電話號碼。" languagecode="3076" />
+          </Descriptions>
+        </attribute>
+        <attribute PhysicalName="Telephone2">
+          <Type>nvarchar</Type>
+          <Name>telephone2</Name>
+          <LogicalName>telephone2</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>phone</Format>
+          <MaxLength>50</MaxLength>
+          <Length>100</Length>
+          <displaynames>
+            <displayname description="Other Phone" languagecode="1033" />
+            <displayname description="هاتف آخر" languagecode="1025" />
+            <displayname description="Beste telefono bat" languagecode="1069" />
+            <displayname description="Друг телефон" languagecode="1026" />
+            <displayname description="Altres telèfons" languagecode="1027" />
+            <displayname description="其他電話" languagecode="3076" />
+          </displaynames>
+          <Descriptions>
+            <Description description="Type a second phone number for this account." languagecode="1033" />
+            <Description description="اكتب رقم هاتف ثانيًا لهذا العميل." languagecode="1025" />
+            <Description description="Idatzi kontuaren bigarren telefono-zenbakia." languagecode="1069" />
+            <Description description="Въведете втори телефонен номер за този клиент." languagecode="1026" />
+            <Description description="Escriviu el número de telèfon secundari d'aquest compte." languagecode="1027" />
+            <Description description="輸入這個客戶的第二電話號碼。" languagecode="3076" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>accounts</EntitySetName>
+      <IsDuplicateCheckSupported>1</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>1</IsBusinessProcessEnabled>
+      <IsRequiredOffline>0</IsRequiredOffline>
+      <IsInteractionCentricEnabled>1</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>1</IsConnectionsEnabled>
+      <EntityColor>#794300</EntityColor>
+      <IsDocumentManagementEnabled>1</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>0</IsBPFEntity>
+      <OwnershipTypeMask>UserOwned</OwnershipTypeMask>
+      <EntityMask>ActivityPointer</EntityMask>
+      <IsAuditEnabled>1</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask></ActivityTypeMask>
+      <IsActivityParty>1</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>1</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>1</IsMailMergeEnabled>
+      <IsVisibleInMobile>1</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+      <MobileOfflineFilters>
+		&lt;fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false"&gt;
+			&lt;entity name="account"&gt;
+				&lt;filter type="and"&gt;
+					&lt;condition attribute="modifiedon" operator="last-x-days" value="10"/&gt;
+				&lt;/filter&gt;
+			&lt;/entity&gt;
+		&lt;/fetch&gt;
+	</MobileOfflineFilters>
+      <IsMapiGridEnabled>1</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>1</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>1</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>1</SyncToExternalSearchIndex>
+      <IntroducedVersion>5.0.0.0</IntroducedVersion>
+      <IconVectorName></IconVectorName>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <EntityHelpUrl></EntityHelpUrl>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <IsEnabledForExternalChannels>1</IsEnabledForExternalChannels>
+      <IsMSTeamsIntegrationEnabled>1</IsMSTeamsIntegrationEnabled>
+      <IsSolutionAware>0</IsSolutionAware>
+      <HasRelatedNotes>True</HasRelatedNotes>
+      <HasRelatedActivities>True</HasRelatedActivities>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+  <CustomControlDefaultConfigs>
+    <CustomControlDefaultConfig>
+      <ControlDescriptionXML>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+              <parameters />
+            </customControl>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="1">
+              <parameters />
+            </customControl>
+            <customControl name="Microsoft.PowerApps.PowerAppsOneGrid" formFactor="-1">
+              <parameters>
+                <data-set name="Items">
+                  <columnsDefaultView>
+                    <cell entityName="account" viewId="{00000000-0000-0000-00AA-000010001001}" attributeName="primarycontactid">
+                      <DefaultViewId>{A2D479C5-53E3-4C69-ADDD-802327E67A0D}</DefaultViewId>
+                      <DependentAttributeType>processstage</DependentAttributeType>
+                      <AllowFilterOff>false</AllowFilterOff>
+                      <DisableQuickFind>false</DisableQuickFind>
+                    </cell>
+                  </columnsDefaultView>
+                </data-set>
+                <EnableEditing static="true" type="Enum">yes</EnableEditing>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+                <EnableRangeSelection static="true" type="Enum">yes</EnableRangeSelection>
+                <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+                <EnablePagination static="true" type="Enum">yes</EnablePagination>
+                <EnableStatusColumn static="true" type="Enum">yes</EnableStatusColumn>
+                <EnableDropdownColor static="true" type="Enum">yes</EnableDropdownColor>
+                <EnableTypeIcons static="true" type="Enum">yes</EnableTypeIcons>
+                <NavigationTypesAllowed static="true" type="Enum">all</NavigationTypesAllowed>
+                <ReflowBehavior static="true" type="Enum">Reflow</ReflowBehavior>
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+              <parameters>
+                <data-set name="Grid">
+                  <columnsDefaultView />
+                </data-set>
+                <data-set name="SubGrid">
+                  <ViewId>{00000000-0000-0000-00AA-000010001004}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>contact</TargetEntityType>
+                  <SubGridParentId>parent_contactid</SubGridParentId>
+                </data-set>
+                <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+                <EnableEditing static="true" type="Enum">yes</EnableEditing>
+                <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+                <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+                <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+                <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+                <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+                <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </ControlDescriptionXML>
+      <IntroducedVersion>5.0</IntroducedVersion>
+    </CustomControlDefaultConfig>
+  </CustomControlDefaultConfigs>
+</Entity>
