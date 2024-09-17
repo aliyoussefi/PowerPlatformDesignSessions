@@ -40,7 +40,7 @@ jobs:
         run: echo Hello, world!
         
       # Install Power Platform tools for working with solutions
-      - name: Install Power Platform Tools
+      - name: Power Platform Tool Installer
         uses: microsoft/powerplatform-actions/actions-install@v1
       - name: 'who-am-i'
         uses: microsoft/powerplatform-actions/who-am-i@v1
@@ -51,7 +51,7 @@ jobs:
           tenant-id: '1557f771-4c8e-4dbd-8b80-dd00a88e833e'
         
       # Export Solution with variable
-      - name: Export Solution
+      - name: Power Platform Export Solution
         uses: microsoft/powerplatform-actions/export-solution@v1
         with:
           environment-url: 'https://alyousse.crm.dynamics.com'
@@ -65,7 +65,7 @@ jobs:
 
           
       # Unpack solution to working folder
-      - name: Unpack Solution
+      - name: Power Platform Unpack Solution
         uses: microsoft/powerplatform-actions/unpack-solution@v1
         with:
           solution-file: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip
@@ -73,16 +73,10 @@ jobs:
           solution-type: 'Unmanaged'
           overwrite-files: true
 
-      - name: Check into repo
-        uses: actions/github-script@v7.0.1
+      - name: branch-solution, prepare it for a PullRequest
+        uses: microsoft/powerplatform-actions/branch-solution@v0
         with:
-          # The script to run
-          script: 
-              echo Write your commands here
-              git config user.email "test@test.com"
-              git config user.name "test@test.com"
-              git checkout main
-              git add --all
-              git commit -m "solution init"
-              echo push code to new repo 
-              git -c http.extraheader="AUTHORIZATION:bearer ${{ github.token }}" push origin main
+          solution-folder: ${{ github.event.inputs.solution_folder}}/${{ github.event.inputs.solution_name }}
+          solution-target-folder: ${{ github.event.inputs.solution_target_folder}}/${{ github.event.inputs.solution_name }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          allow-empty-commit: true
