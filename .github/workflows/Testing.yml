@@ -47,7 +47,7 @@ jobs:
           #user-name: ${{ secrets.CARGO_CRM_USER }}
           #password-secret: ${{ secrets.CARGO_CRM_PASSWD }}
           solution-name: ${{ inputs.solutionName }}
-          solution-output-file: '${{ inputs.solutionName }}.zip'
+          solution-output-file: ${{ inputs.solutionName }}.zip
           working-directory: 'out'
           
       # Unpack solution to working folder
