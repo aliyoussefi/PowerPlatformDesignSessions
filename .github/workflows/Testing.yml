@@ -5,10 +5,24 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   workflow_dispatch:
     inputs:
-      solutionName:
-        description: "Solution Name"
+      # Change this value
+      solution_name:
+        description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: "default value"  
+        default: ALMLab
+       #Do Not change these values
+      solution_exported_folder:
+        description: 'folder name for staging the exported solution *do not change*'
+        required: true
+        default: out/exported/
+      solution_folder:
+        description: 'staging the unpacked solution folder before check-in *do not change*'
+        required: true
+        default: out/solutions/
+      solution_target_folder:
+       description: 'folder name to be created and checked in *do not change*'
+       required: true
+       default: solutions/
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -46,9 +60,9 @@ jobs:
           tenant-id: '1557f771-4c8e-4dbd-8b80-dd00a88e833e'
           #user-name: ${{ secrets.CARGO_CRM_USER }}
           #password-secret: ${{ secrets.CARGO_CRM_PASSWD }}
-          solution-name: ${{ inputs.solutionName }}
-          solution-output-file: ${{ inputs.solutionName }}.zip
-          working-directory: 'out'
+          solution-name: ${{ github.event.inputs.solution_name }}
+          solution-output-file: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip
+
           
       # Unpack solution to working folder
       - name: Unpack Solution
